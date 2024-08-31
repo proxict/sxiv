@@ -90,13 +90,13 @@ static const keymap_t keys[] = {
 	{ 0,            XK_braceright,    g_change_gamma,       +1 },
 	{ ControlMask,  XK_g,             g_change_gamma,        0 },
 
-	{ 0,            XK_h,             t_move_sel,           DIR_LEFT },
+	{ 0,            XK_h,             i_navigate,           -1 },
 	{ 0,            XK_Left,          t_move_sel,           DIR_LEFT },
 	{ 0,            XK_j,             t_move_sel,           DIR_DOWN },
 	{ 0,            XK_Down,          t_move_sel,           DIR_DOWN },
 	{ 0,            XK_k,             t_move_sel,           DIR_UP },
 	{ 0,            XK_Up,            t_move_sel,           DIR_UP },
-	{ 0,            XK_l,             t_move_sel,           DIR_RIGHT },
+	{ 0,            XK_l,             i_navigate,           +1 },
 	{ 0,            XK_Right,         t_move_sel,           DIR_RIGHT },
 	{ 0,            XK_R,             t_reload_all,         None },
 
